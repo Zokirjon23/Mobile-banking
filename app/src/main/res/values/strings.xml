@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mobile Banking</string>
+    <string name="gita_bank">GITA BANK</string>
+    <string name="server_connect_error">Server Connection Error</string>
+</resources>
