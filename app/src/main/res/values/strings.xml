@@ -2,4 +2,11 @@
     <string name="app_name">Mobile Banking</string>
     <string name="gita_bank">GITA BANK</string>
     <string name="server_connect_error">Server Connection Error</string>
+    <string name="first_name">First name</string>
+    <string name="sign_up">Sign up</string>
+    <string name="last_name">Last name</string>
+    <string name="date_brith">Date of birth</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone number</string>
+    <string name="save">Saqlash</string>
 </resources>
