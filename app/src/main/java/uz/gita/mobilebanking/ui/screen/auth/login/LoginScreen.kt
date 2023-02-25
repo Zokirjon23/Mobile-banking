@@ -49,11 +49,11 @@ class LoginScreen : AndroidScreen() {
         val password = rememberSaveable { mutableStateOf("") }
         val phone = rememberSaveable { mutableStateOf("") }
 
-        val context = LocalContext.current
-        LaunchedEffect(key1 = uiState.value.message, key2 = uiState.value.error) {
-            Toast.makeText(context, uiState.value.message, Toast.LENGTH_SHORT).show()
-            Toast.makeText(context, uiState.value.error, Toast.LENGTH_SHORT).show()
-        }
+//        val context = LocalContext.current
+//        LaunchedEffect(key1 = uiState.value.message, key2 = uiState.value.error) {
+//            Toast.makeText(context, uiState.value.message, Toast.LENGTH_SHORT).show()
+//            Toast.makeText(context, uiState.value.error, Toast.LENGTH_SHORT).show()
+//        }
 
         Column(
             modifier = Modifier

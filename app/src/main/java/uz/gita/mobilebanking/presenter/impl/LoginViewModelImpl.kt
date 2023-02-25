@@ -31,10 +31,10 @@ class LoginViewModelImpl @Inject constructor(
                 loginUseCase.login(intent.phone, intent.password).onEach {
                     when (it) {
                         is ResultData.Success -> direction.openDashBoard(screen.dashboard())
-                        is ResultData.Loading -> {
-                            Log.d("FFFF", "onEventDispatch: ${it.isLoading}")
-                            uiStateFlow.value = LoginContract.UiState(it.isLoading)
-                        }
+//                        is ResultData.Loading -> {
+//                            Log.d("FFFF", "onEventDispatch: ${it.isLoading}")
+//                            uiStateFlow.value = LoginContract.UiState(it.isLoading)
+//                        }
                         is ResultData.Message -> {
                             Log.d("FFFF", "onEventDispatch: ${it.errorMessage}")
                             Log.d("FFFF", "onEventDispatch: ${it.resId}")
